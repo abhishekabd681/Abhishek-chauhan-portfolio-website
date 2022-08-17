@@ -1,0 +1,176 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+*
+{
+    margin: 0;
+    font-family: 'arimo';
+    
+}
+
+.section-1
+{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    position: relative;
+    background-color:green;
+}
+.section-2 
+{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:green;
+
+}
+.section-2 .container-1{
+ margin-top: 20px;
+ width: 600px;
+ text-align: center;
+}
+.container-1
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .section-2 img
+ {
+  border: 20px;
+  border-radius: 50%;
+  border-color: black;
+ }
+ .section-3
+{  
+  background-color: green;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.section-3 div h1
+{
+  display: flex;
+  text-align: centre;
+
+}
+.section-3 .container-2
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.section-3 .container-2 h1
+{
+  font-size: 50px;
+  font-family: 'arimo';
+  
+}
+.section-3 .container-2 .container-3
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  width: 640px;
+}
+.section-3 .container-2 .container-3 project-1
+{ 
+   border: 1px solid rgb(225,225,225);
+   border-radius: 15px;
+   width:30%;
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+.section-3 .container-2 .container-3 .project-1 img
+{ 
+ width:100%;
+ border-radius:15px 15px 0 0;
+
+}
+.section-3 .container-2 .container-3 .project-1 .project-11
+{ 
+  padding: 5px 10px;
+  text-align: center;
+  background-color: blueviolet;
+  height: 200px;
+  width:150px;
+}
+.section-4
+{
+  height:60vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: green;
+}
+.section-4 .last
+{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:540px;
+gap: 20px;
+}
+.section-4 .last .has
+{
+  font-family: cursive;
+  font-size: 50px;
+  text-shadow: 4px 4px purple;
+  color: blueviolet ;
+}
+.section-4 .last .para
+{
+  font-style: italic;
+  font-size: 25px;
+  color: orange ;
+  text-align: center;
+}
+.section-4 .button
+{
+  background-color:blue;
+  transition: 0.3s;
+  border-radius: 8px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.section-4 .button:hover
+{
+  background-color:red ;
+  transition: 0.3s;
+  border-radius: 8px;
+  font-size: 25px;
+}
+.section-5
+{
+  height: 20vh;
+  background-color: green;
+
+}
+.section-5 .social
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  gap: 45px
+}
